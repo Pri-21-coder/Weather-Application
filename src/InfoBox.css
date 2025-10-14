@@ -1,0 +1,23 @@
+/*.InfoBox{
+    text-align: center;
+}
+.CardContainer {
+    display: flex;
+    justify-content: center;
+}*/
+.InfoBox {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px; /* Increased top margin for separation */
+}
+
+.CardContainer {
+    max-width: 400px; 
+    width: 100%;
+}
+.CardContainer:hover{
+    box-shadow: 0 6px 12px gray !important;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
